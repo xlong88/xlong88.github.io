@@ -28,12 +28,14 @@ Then, let's come to the "how to build".
 
 ## "Activate" your Github Pages
 
-1. create a repository named as **username.github.io** (the first part has to be your username for Github)
-2. test whether your Github Pages works or not by pushing a HTML file (you can simply put a "Hello World" in that file) named as **index.html**. Then, open your browser, put URL **username.github.io** in the address bar, if everything goes well, you will see your content from the **index.html**.
-
+1. create a repository named as **username.github.io** 
+{% highlight yaml %}
+the first part has to be exactly your username for Github
+{% endhighlight %}
+2. test whether your Github Pages works or not by pushing a HTML file (you can simply put a "Hello World" in it) named as **index.html**. Then, open your browser, put URL **username.github.io** in the address bar, if everything goes well, you will see your content from the **index.html**.
 
 
 {% highlight yaml %}
-image:
-  background: filename.png
+more detailed tutorial, please refer to:
+  https://pages.github.com/
 {% endhighlight %}
