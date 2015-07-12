@@ -43,4 +43,4 @@ The following is the preview of HPSTR Jekyll Theme:
 1. You need do some simple configuration of the template files, before you push them to your Github repository (i.e., username.github.io).
 2. If you want preview your blog before you upload to your Github, you could [build a local Jekyll template system](http://xlong88.github.io/build-local-Jekyll/)
 
-## 3. Push These Files onto Your Github Repository (the one your created in Step 1)
+## 3. Push These Files onto Your Github Repository (The One You Created in Step 1)
