@@ -7,7 +7,7 @@ image:
   background: triangular.png
 ---
 
-Nowadays, blog is getting more and more important. More and more people start to play with blog by using the existing blog systems provieded by various companies. Some people even try to build their own blog system by using wordpress or some other tools. Today, I will introduce you an easy way to build your own blog website by using Github Pages. 
+Nowadays, blog is getting more and more important. More and more people start to play with blog by using various existing blog systems. Some people even try to build their own blog system by using wordpress or some other tools. Today, I will introduce you an easy way to build your own blog website by using Github Pages. 
 
 First, Let me talk about the pros and cons of Github Pages.
 
@@ -16,13 +16,13 @@ First, Let me talk about the pros and cons of Github Pages.
 	* free
 	* no need to establish your own web server
 	* can bind to your own domain name
-	* lightweight, no complex comfiguration
+	* lightweight, no complex configuration
 
 * Disadvantages:
 
 	* it uses Jekyll template system, more suitable for posting blog, documentation and so on
 	* limited dynamic web supporting
-	* based on Git, there is no powful backend like wordpress, and many work should be done manually
+	* based on Git, there is no powerful backend like wordpress, and many work should be done manually
 
 Then, let's come to the "how to build".
 
