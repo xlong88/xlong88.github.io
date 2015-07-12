@@ -26,17 +26,21 @@ First, Let me talk about the pros and cons of Github Pages.
 
 Then, let's come to the "how to build".
 
-## "Activate" your Github Pages
+## 1. "Activate" Your Github Pages
 
-1. create a repository named as **username.github.io**
- 
-	{% highlight yaml %}
-	the first part has to be exactly the same as your username for Github
-	{% endhighlight %}
-2. test whether your Github Pages works or not by pushing a HTML file (you can simply put a "Hello World" in it) named as **index.html**. Then, open your browser, put URL **username.github.io** in the address bar, if everything goes well, you will see your content from the **index.html**.
+Please refer to [official guide](https://pages.github.com/)
 
+## 2. Prepare Jekyll Template 
 
-{% highlight yaml %}
-more detailed tutorial, please refer to:
-  https://pages.github.com/
-{% endhighlight %}
+Here, [**HPSTR Jekyll Theme**](https://mmistakes.github.io/hpstr-jekyll-theme/theme-setup/) is recommended.
+
+The following is the preview of HPSTR Jekyll Theme:
+
+![HPSTR Theme Preview screenshot](http://mmistakes.github.io/hpstr-jekyll-theme/images/hpstr-jekyll-theme-preview.jpg)
+
+**Notice**: 
+
+1. You need do some simple configuration of the template files, before you push them to your Github repository (i.e., username.github.io).
+2. If you want preview your blog before you upload to your Github, you could [build a local Jekyll template system](http://xlong88.github.io/build-local-Jekyll/)
+
+## 3. Push These Files onto Your Github Repository (the one your created in Step 1)
