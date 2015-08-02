@@ -21,13 +21,13 @@ It's easy to verify that,
 
 $$S = 1^2 + 2^2 + 3^2 + \cdots + n^2 = f'(x)|_{x = 1}$$
 
-Therefore, our mission is to calculate \\(f'(x)|_{x = 1}\\).
+Therefore, our mission is to calculate the value of \\(f'(x)\\) when \\(x = 1\\).
 
 As,
 
 $$f'(x) = 1 + 2^2 x + 3^2 x^2 + \cdots + n^2 x^{n - 1}$$
 
-$$xf'(x) = x + 2^2 x^2 + 3^2 x^3 + \cdots + (n - 1)^2 x^{n - 1} + n^2 x^n)$$
+$$xf'(x) = x + 2^2 x^2 + 3^2 x^3 + \cdots + (n - 1)^2 x^{n - 1} + n^2 x^n$$
 
 By minusing them, we can get,
 
