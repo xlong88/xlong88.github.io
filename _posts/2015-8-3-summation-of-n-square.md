@@ -37,7 +37,7 @@ Therefore,
 
 $$(1 - x)f'(x) = \sum_{i = 1}^{n}(2i - 1) (x^{i - 1} - x^n)$$
 
-Dividing by \\(1 -x\\) on each side, we can obtain,
+Dividing by \\((1 -x)\\) on each side, we can obtain,
 
 $$f'(x) = \sum_{i = 1}^n (2i - 1)x^{i -1}\frac{1 - x^{n - i +1}}{1 - x}$$
 
