@@ -10,11 +10,15 @@ image:
 When uploading papers to EDAS, you might encounter a problem which is called as “Not All Fonts are Embedded”. Today, I'll give you a relatively easy and convenient solution.
 
 ## Tools
+
 [GS x86 for 32-bit Windows](http://pan.baidu.com/s/1hq701wC) 
+
 [GS x64 for 64-bit Windows](http://pan.baidu.com/s/1pJDXLVl)
 
 ## Steps
+
 ### Download and Install The Proper GS (_i.e._, GS x86 or GS x64)
+
 **Note that**, in the following steps, I will assume the GS is installed at "C:/Program Files/gs"!
 
 ### Change Configuration of WinEdit
