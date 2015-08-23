@@ -15,7 +15,7 @@ Now, let's start our journey ...
 ## Greedy Algorithm for Maximum Matching
 
 
-```python
+``python
 
 M = []
 
@@ -28,7 +28,7 @@ for e in E:
         flag.setdefault(e[1],1)
         
 
-```
+``
 
 ## Approximation Ratio Proof
 
