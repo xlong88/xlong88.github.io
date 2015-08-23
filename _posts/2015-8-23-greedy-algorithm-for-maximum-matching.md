@@ -29,6 +29,7 @@ for e in E:
         flag.setdefault(e[0],1)
         
         flag.setdefault(e[1],1)
+        
 ```
 
 ## Approximation Ratio Proof
