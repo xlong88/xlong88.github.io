@@ -27,7 +27,7 @@ for e in E:
 
 ## Approximation Ratio Proof
 
-Assume \\(M^'\\) is the maximum matching of graph \\(G(V,E)\\), and \\(M\\) is the maximal matching getting from the above greedy algorithm. As \\(|M^'| \geq \|M\|\\), let's define \\(\Delta = M^' - M = \{e:e \in M^'\mbox{ and } e\notin M\}\\). Then, for any edge \\(e in \Delta\\), since \\(e \notin M\\), it has to intersect with at least one edge in \\(M\\). At the same time, since \\(e \in M^'\\), so any two distinct edges \\(e_1,e_2\in \Delta\\) would not have any intersections. In order words, there would not be two edges in \\(\Delta\\) intersect with the same edge in \\(M\\). Therefore, we have, \\(|\Delta|\leq |M|\\), that is, \\(|M| \geq \frac{1}{2}|M^'|\\).
+Assume \\(M^{'}\\) is the maximum matching of graph \\(G(V,E)\\), and \\(M\\) is the maximal matching getting from the above greedy algorithm. As \\(|M^{'}| \geq \|M\|\\), let's define \\(\Delta = M^{'} - M = \{e:e \in M^'\mbox{ and } e\notin M\}\\). Then, for any edge \\(e in \Delta\\), since \\(e \notin M\\), it has to intersect with at least one edge in \\(M\\). At the same time, since \\(e \in M^{'}\\), so any two distinct edges \\(e_1,e_2\in \Delta\\) would not have any intersections. In order words, there would not be two edges in \\(\Delta\\) intersect with the same edge in \\(M\\). Therefore, we have, \\(|\Delta|\leq |M|\\), that is, \\(|M| \geq \frac{1}{2}|M^{'}|\\).
 
 Eventually, we proved that the size of the maximal matching getting from the greedy algorithm above, is at least a half of the maximum one.
   
