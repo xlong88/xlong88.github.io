@@ -33,7 +33,7 @@ Eventually, we proved that the size of the maximal matching getting from the gre
 
 
 
-Note that, this proof is inspired by [matchingNotes on CS 6820 Fall 2014 at Cornell University][1]
+Note that, this proof is inspired by [1].
 
 [1] http://www.cs.cornell.edu/Courses/cs6820/2014fa/matchingNotes.pdf 
   
