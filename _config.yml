@@ -1,5 +1,5 @@
 title:            Coding Dragon's Blog
-description:      Describe your website here.
+description:      This website is used to backup useful ideas, skills, and tools.
 disqus_shortname: codingdragonsblog
 reading_time:     true
 words_per_minute: 200
@@ -11,7 +11,7 @@ url: http://xlong88.github.io
 owner:
   name:           Long Gong
   avatar:         avatar.JPG
-  bio:            "Your bio goes here. It shouldn't be super long but a good two sentences or two should suffice."
+  bio:            "Hi, I am Long, a CS PhD@GaTech."
   email:          gonglong.gl@qq.com
   # Social networking links used in footer. Update and remove as you like.
   twitter:        
