@@ -16,6 +16,14 @@ image:
 1. \\(\binom{n}{k}\le \frac{n^k}{k!}\\)
 2. \\(\binom{n}{k}\le \left(\frac{ne}{k}\right)^k\\)
 3. \\(\binom{n}{k} \ge \left(\frac{n}{k}\right)^k\\)
+
+## Moment Generating Function
+
+Given random variable \\(X\\), its moment generating function is defined as,
+
+$$
+g(t) = E(e^{tX}),
+$$
   
 
 
