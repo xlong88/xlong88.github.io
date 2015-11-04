@@ -12,7 +12,7 @@ Given a matching \\(M\\) of a graph \\(G\\), \\(M\\) is the maximum matching if 
 
 \\(\Rightarrow\\): if \\(M\\) is the maximum matching, then there would be no \\(M\\)-augmenting path, because otherwise we can increase the size of \\(M\\).
 
-\\(\Leftarrow\\): assume there is no \\(M\\)-augmenting path in \\(G\\), \\(M\\) is not the maximum matching, let \\(M'\\) be the maximum one. Then, let's analyze \\(M \triangleup M'\\), it is easy to figure out that there are three kinds of subgraphs in \\(M \triangleup M'\\):
+\\(\Leftarrow\\): assume there is no \\(M\\)-augmenting path in \\(G\\), \\(M\\) is not the maximum matching, let \\(M'\\) be the maximum one. Then, let's analyze \\(M \Delta M'\\), it is easy to figure out that there are three kinds of subgraphs in \\(M \Delta M'\\):
 
     1. even-length cycle;
     2. even-length path;
