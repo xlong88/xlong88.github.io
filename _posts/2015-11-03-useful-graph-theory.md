@@ -37,6 +37,14 @@ Assume that statement holds when \\(|X| \le k - 1\\). When \\(|X|=k\\),
     1) if \\(S\\) is a real subset of \\(X\\), then we have in the subgraph induced by \\(S\\) and \\(N(S)\\), there exists a matching saturating \\(S\\), and in the subgraph induced by \\(X\setminus S\\), there also exists a matching saturating \\(X\setminus S\\). Therefore, there exists a matching saturating \\(X\\) in \\(G\\). 
     2) if \\(S=X\\) is the only subset of \\(X\\) such that \\(|N(S)|=|S|\\), then by _Case 1_, we can conclude that there exists a matching saturating \\(X\\).
 
+
+Here is another proof from _Douglas's Introduction to Graph Theory_:
+
+\\(\Leftarrow\\): This proof focuses on the converse-negative proposition, which means it proves that if \\(M\\) is a maximum matching which does not saturate \\(X\\), then there exists at least a subset \\(S\subseteq X\\) such that \\(|N(S)|<S\\).
+
+Let's define the set of all the \\(M\\)-alternating paths \\(P\\) which starts from an exposed vertex \\(u\in X\\), and , we denote \\(S=P\cap X\\), and \\(T=P\cap Y\\). We have \\(T=N(S)\\). And for every vertex \\(v\in T\\), there exists a vertex \\(x \in S\setminus \{u\}\\) such that \\((v,x)\in M\\) and any two vertices in \\(T\\) can not share the vertices in \\(S\setminus \{u\}\\), therefore, \\(|N(S)|=|T|=|S\setminus \{u\}|<|S|\\). Proof completes!
+
+
   
 
 
