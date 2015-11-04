@@ -44,6 +44,13 @@ Here is another proof from _Douglas's Introduction to Graph Theory_:
 
 Let's define the set of all the \\(M\\)-alternating paths \\(P\\) which starts from an exposed vertex \\(u\in X\\), and , we denote \\(S=P\cap X\\), and \\(T=P\cap Y\\). We have \\(T=N(S)\\). And for every vertex \\(v\in T\\), there exists a vertex \\(x \in S\setminus \{u\}\\) such that \\((v,x)\in M\\) and any two vertices in \\(T\\) can not share the vertices in \\(S\setminus \{u\}\\), therefore, \\(|N(S)|=|T|=|S\setminus \{u\}|<|S|\\). Proof completes!
 
+## Vertex Cover & Matching
+Given any graph \\(G\\), the size of the minimum vertex cover \\(\ge\\) the size of the maximum matching, and in bipartite graph, they are equal.
+
+The first part is quite easy. To cover the maximum matching \\(M\\) in \\(G\\) we need exactly \\(|M|\\), since no edges in \\(M\\) share common vertices. Therefore, the size of the minimum vertex cover is at least the size of the maximum matching.
+
+In bipartite graph \\(G(X,Y,E)\\), we have \\(VC=X \cap M\\) is a vertex  cover, where \\(M\\) is the maximum matching. Let's prove by contradiction, if \\(VC\\) is not a vertex cover, then there exists at least an edge \\(e \in E \setminus M\\) whose two end-nodes are both exposed. Therefore, itself forms a \\(M\\)-augmenting path, which contradict with the maximality of \\(M\\).
+
 
   
 
