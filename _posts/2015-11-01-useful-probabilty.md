@@ -32,6 +32,7 @@ $$
 $$
 \frac{d^n}{d t^n}g(t)|_{t=0} = \mu_n,
 $$
+
 where \\(\mu_n\\) is the order n moment.
   
 
