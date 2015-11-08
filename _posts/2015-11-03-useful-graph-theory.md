@@ -7,6 +7,8 @@ image:
   background: triangular.png
 ---
 
+# Theory Part
+
 ## Berge's Theorem [1957]
 Given a matching \\(M\\) of a graph \\(G\\), \\(M\\) is the maximum matching if and only if there is no \\(M\\)-augmenting path in \\(G\\).
 
