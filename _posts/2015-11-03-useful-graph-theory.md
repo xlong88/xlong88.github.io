@@ -79,6 +79,17 @@ Let \\(G(V,E)\\) be a graph such that for each \\(v \in V\\) there is a maximum 
 
 ## General Graph Matching Algorithm [Edmonds' Matching ALgorithm or Blossom ALgorithm]
 
+### Lemma [GGM 1]: Given a graph \\(G(V,E)\\), a matching \\(M\\), and a set of \\(M\\)-exposed vertices \\(X\\), there exists a polynomial-time (more specifically \\(O(|V|+|E|)\\))) algorithm that either returns a \\(X-X\\) \\(M\\)-alternating walk or reports that there is no such walk.
+
+### Lemma [GMM 2]: A shortest \\(X-X\\) \\(M\\)-alternating walk is either a \\(M\\)-augmenting path or a \\(M\\)-flower as a prefix.
+
+### Theorem [GMM 1]: Given a graph \\(G(V,E)\\), a matching \\(M\\),  and an \\(M\\)-blossom \\(B\\), \\(M\\) is a maximum matching in \\(G\\) **iff** \\(M\setminus B\\) is the maximum matching in \\(G\setminus B\\).
+
+### Lemma [GMM 3]: Given a graph \\(G(V,E)\\), a matching \\(M\\),  and an \\(M\\)-blossom \\(B\\), if there is a \\(M\\)-augmenting path in \\(G\\), then there exists a \\(M\setminus B\\)-augmenting path in \\(G\setminus B\\). Particularly, we can find such an augmenting path in \\(O(|E|)\\). 
+
+
+
+
 
   
 
