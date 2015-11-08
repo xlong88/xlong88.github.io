@@ -52,6 +52,32 @@ The first part is quite easy. To cover the maximum matching \\(M\\) in \\(G\\) w
 In bipartite graph \\(G(X,Y,E)\\), we have \\(VC=X \cap M\\) is a vertex  cover, where \\(M\\) is the maximum matching. Let's prove by contradiction, if \\(VC\\) is not a vertex cover, then there exists at least an edge \\(e \in E \setminus M\\) whose two end-nodes are both exposed. Therefore, itself forms a \\(M\\)-augmenting path, which contradict with the maximality of \\(M\\).
 
 
+## Tutte-Berge Formula [1958]
+For any Graph \\(G=(V,E)\\), the size of maximum matching \\(\nu(G)\\) can be expressed as,
+$$
+\nu(G) = \frac{|V|}{2} - \max_{U\subseteq V}\frac{o(G\setminus U)-|U|}{2},
+$$
+
+where \\(o(G\setminus U)\\) is the number of components in \\(G\setminus U\\) with an odd number of vertices.
+
+[hint: induction]
+
+## Lemma 
+Let \\(G(V,E)\\) be a graph such that for each \\(v \in V\\) there is a maximum matching in \\(G\\) that misses \\(v\\). Then, \\(\nu(G)=\frac{|V|-1}{2}\\). In particular, \\(|V|\\) is odd. 
+
+[hint: contradiction]  
+    
+# Algorithm Part
+
+## Hungarian Algorithm for Maximum Cardinality Matching in Bipartite Graph
+
+## Hungarian ALgorithm for Maximum Weight Matching (or Assignment Problem)
+
+## Faster Bipartite Graph Matching [Hopcroft-Karp Algorithm]
+
+## General Graph Matching Algorithm [Edmonds' Matching ALgorithm or Blossom ALgorithm]
+
+
   
 
 
