@@ -9,7 +9,7 @@ image:
 
 ## options -> options interfaces ... -> Event Handlers -> Exit
 
-add the following sentence just before **End;** in the file
+add the following sentence just before **"End;"** in the file
 
     RegDeleteValue('HKEY_CURRENT_USER', 'Software\WinEdt 9', 'Inst');
 
