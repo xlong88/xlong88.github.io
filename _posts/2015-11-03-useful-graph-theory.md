@@ -74,6 +74,33 @@ Let \\(G(V,E)\\) be a graph such that for each \\(v \in V\\) there is a maximum 
 
 ## Maximum Flow
 
+### Given a graph \\(G(V,E)\\), any \\(s-t\\) flow \\(f\\), and any \\(s-t\\) cut \\((S,\bar{S})\\), the value of \\(f\\) \\(\le\\) the capacity of the cut \\((S,\bar{S})\\).
+
+[hint: definition & substitution]
+
+According to the definition of a flow, we have,
+$$
+val(f) = f(s,V) - f(V,s)
+$$
+
+and for any vertex \\(x\\) other than \\(s\\) and \\(t\\),
+$$
+f(x,V) - f(V,x) = 0
+$$
+
+Therefore,
+$$
+\begin{aligned}
+val(f) &=& f(s,V) - f(V,s)\\
+       &=& \sum_{i \in S}f(i,V) - \sum{i \in S}f(V,i)\\
+       &=& f(S,V) - f(V,S)\\
+       &=& f(S,\bar{S}) + f(S,S) - f(S,S) - f(\bar{S},S)\\
+       &=& f(S,\bar{S}) - f(\bar{S},S)\\
+       &\le& cap(S,\bar{S})
+\end{aligned}
+$$
+where \\(f(A,B)=\sum_{x\in A,y\in B}f(x,y)\\), and \\(cap(S,\bar{S}) = \sum_{x\in S,y \in \bar{S}}c(x,y)\\), \\(c(x,y)\\) is the capacity of egde \\((x,y)\\).
+
 ### Lemma: Given a graph \\(G(V,E)\\)
     
 # Algorithm Part
