@@ -40,10 +40,11 @@ git update-index --skip-worktree <file>
 ```
 
 If you want skip (ignore) certain type of files, the following configuration can be applied: Edit file ".gitignore", and add the types you want to ignore, for example,
+
 ```
-#ignore thumbnails created by windows
+# ignore thumbnails created by windows
 Thumbs.db
-#Ignore files build by Visual Studio
+# Ignore files build by Visual Studio
 *.user
 *.aps
 *.pch
