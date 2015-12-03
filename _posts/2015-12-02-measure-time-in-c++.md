@@ -10,8 +10,8 @@ image:
 ## Sample Codes for Measuring Running Time in C++
 
 **Note that**, C++ 11 is required
-```cpp
-include <chrono> 
+```c++
+include <chrono>  
 define TIMING
  
 ifdef TIMING
