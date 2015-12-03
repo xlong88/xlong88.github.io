@@ -11,7 +11,7 @@ image:
 
 **Note that**, C++ 11 is required
 
-```c++
+```
 # include <chrono>    
 # define TIMING  
  
