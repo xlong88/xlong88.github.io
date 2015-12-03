@@ -10,7 +10,8 @@ image:
 ## Sample Codes for Measuring Running Time in C++
 
 **Note that**, C++ 11 is required
-~~~~~~c++
+
+```c++
 #include <chrono>  
 #define TIMING
  
@@ -26,7 +27,7 @@ image:
 #define START_TIMER
 #define STOP_TIMER(name)
 #endif
-~~~~~~
+```
   
 
 
