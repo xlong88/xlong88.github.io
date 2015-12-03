@@ -51,8 +51,8 @@ permalink:   /:categories/:title/
 # Amount of post to show on home page
 paginate: 5
 
-redcarpet:
-    extensions: ["no_intra_emphasis", "tables", "autolink", "strikethrough", "with_toc_data", "fenced_code_blocks"]
+#redcarpet:
+    #extensions: ["no_intra_emphasis", "tables", "autolink", "strikethrough", "with_toc_data", "fenced_code_blocks"]
 	
 kramdown:
   auto_ids: true
