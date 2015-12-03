@@ -7,7 +7,7 @@ image:
   background: triangular.png
 ---
 
-```c++
+```cpp
 #include <chrono>  
 #define TIMING  
 
