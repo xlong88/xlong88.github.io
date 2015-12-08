@@ -7,7 +7,7 @@ image:
   background: triangular.png
 ---
 
-~~~cpp
+~~~
 #include <chrono>  
 #define TIMING  
 
@@ -24,6 +24,7 @@ image:
 #define STOP_TIMER(name)  
 #endif  
 ~~~
+{:lang="c++"}
 
   
 
