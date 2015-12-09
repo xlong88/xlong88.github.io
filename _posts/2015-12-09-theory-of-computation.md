@@ -27,7 +27,12 @@ $$
 T(x,L) = \begin{cases}1,\quad \mbox{if } x \in L\\ 0,\quad \mbox{otherwise}\end{cases}
 $$
 
-
+|   |   |   |   |   |
+|---|---|---|---|---|
+| $L_1$   |   |   |   |   |
+|   |   |   |   |   |
+|   |   |   |   |   |
+|   |   |   |   |   |
 
 Now, let's consider the following language $\hat{L} = \{x_j:x_j \notin L_j\}$
 
