@@ -24,14 +24,10 @@ _proof_: [basic method: [Cantor's diagonalization method](https://en.wikipedia.o
 Suppose the set of language is countable. Then, we can build a bijection from strings to languages. Denote the bijection as a table $T$ such that,
 
 $$
-T(x,L) = \begin{cases}1,\quad if x \in L\\ 0,\quad \mbox{otherwise}\end{cases}
+T(x,L) = \begin{cases}1,\quad \mbox{if } x \in L\\ 0,\quad \mbox{otherwise}\end{cases}
 $$
 
-|          |      $x_1$      |  $x_2$ | $x_3$ | $\cdots$|
-| $L_1$ |  1 | 0 | 0 |$\cdots$|
-| $L_2$ |    0   |  1  | 0 |$\cdots$|
-| $L_3$ | 0 |   0  | 1 |$\cdots$|
-| $\vdots$ | $\vdots$ |   $\vdots$  | $\vdots$ |$\ddots$|
+
 
 Now, let's consider the following language $\hat{L} = \{x_j:x_j \notin L_j\}$
 
