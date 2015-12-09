@@ -39,7 +39,7 @@ timezone:    America/New_York
 future:      true
 highlighter: pygments
 # pygments: true
-markdown:    KramdownPygments
+markdown:  kramdown
 gems:
   - jekyll-sitemap
 sass:
@@ -58,7 +58,7 @@ kramdown:
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6
-  default_lang: python
+  #default_lang: python
 #  use_coderay: true
 
 #  coderay:
