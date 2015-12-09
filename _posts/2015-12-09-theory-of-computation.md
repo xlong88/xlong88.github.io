@@ -10,7 +10,9 @@ image:
 ## Countability
 
 **Theorem 1**: For any finite alphabet \\(\Sigma\\), the set of string defined on it is countable.
-_proof_: [basic idea: build a 1-1 map from string to natural number]
+_proof_:   
+
+[basic idea: build a 1-1 map from string to natural number]
 
 First of all, we consider \\(\Sigma=\{0,1\}\\). It is obvious that any string defined on such alphabet can be considered as a number in base-2 system. However, that is not enough because it is not a 1-1 map, since a lot of string might be mapped to the same integer, for example, \\(0001\\) and \\(1\\). We can fix this issue by adding a ``1" before the string. Thus, we get a 1-1 map from a string to natural number. 
 
@@ -19,22 +21,49 @@ Then, we extend the above proof to more general cases. It is easy to figure out 
 Therefore, for any finite alphabet, the set of string defined on it is countable.
 
 **Theorem 2**: The set of language on a finite alphabet is uncountable.
-_proof_: [basic method: [Cantor's diagonalization method](https://en.wikipedia.org/wiki/Cantor%27s_diagonal_argument)]
 
-Suppose the set of language is countable. Then, we can build a bijection from strings to languages. Denote the bijection as a table $T$ such that,
+_proof_: 
 
-$$
-T(x,L) = \begin{cases}1,\quad \mbox{if } x \in L\\ 0,\quad \mbox{otherwise}\end{cases}
-$$
+[hint: [Cantor's diagonalization method](https://en.wikipedia.org/wiki/Cantor%27s_diagonal_argument)]
 
-|   | $x_1$  | $x_2$  | $x_3$  | $\cdots$  |
-|---|---|---|---|---|
-| $L_1$   | 1  | 0  | 0  | $\cdots$  |
-| $L_1$  | 0  | 1  | 0  | $\cdots$  |
-| $L_1$  |  0 |0   |1   |  $\cdots$ |
-| $\vdots$ | $\vdots$  | $\vdots$  | $\vdots$  | $\ddots$  |
+## Undecidability
 
-Now, let's consider the following language $\hat{L} = \{x_j:x_j \notin L_j\}$
+**Theorem 1**: Language $L_A=\{(<M>,\omega):<M> \mbox{ is a valid Turning Machine, } M \mbox{ accepts } \omega\}$ is **undecidable**.
+
+_proof_:
+
+[hint: [Cantor's diagonalization method](https://en.wikipedia.org/wiki/Cantor%27s_diagonal_argument), note that $<M>$ is also a string]
+
+**Theorem 2**: Language $L_{HALT} = \{(<M>,\omega): <M> \mbox{ halts on } \omega\}$ is **undecidable**.
+
+_proof_:
+
+[hint: reduction from ACCEPT]
+
+**Theorem 3**: Determining whether a TM accepts any string is **undecidable**.
+
+_proof_:
+
+[hint: construct a parametric TM and reduce from ACCEPT]
+
+**Corollary 3.1**: Determining whether a TM rejects all strings is **undecidable**.
+
+_proof_:
+
+
+
+
+
+
+
+
+**Corollary 3.2**: Determining whether two TM's $M_1, M_2$ accept the same language $L$ is **undecidable**.
+
+_proof_:
+
+
+
+
 
   
 
