@@ -28,13 +28,13 @@ _proof_:
 
 ## Undecidability
 
-**Theorem 1**: Language $$L_A=\{(<M>,\omega):<M> \mbox{ is a valid Turning Machine, } M \mbox{ accepts } \omega\}$$ is **undecidable**.
+**Theorem 1**: $$L_A=\{(<M>,\omega):<M> \mbox{ is a valid Turning Machine, } M \mbox{ accepts } \omega\}$$ is **undecidable**.
 
 _proof_:
 
 [hint: [Cantor's diagonalization method](https://en.wikipedia.org/wiki/Cantor%27s_diagonal_argument), note that $<M>$ is also a string]
 
-**Theorem 2**: Language $$L_{HALT} = \{(<M>,\omega): <M> \mbox{ halts on } \omega\}$$ is **undecidable**.
+**Theorem 2**: $$L_{HALT} = \{(<M>,\omega): <M> \mbox{ halts on } \omega\}$$ is **undecidable**.
 
 _proof_:
 
