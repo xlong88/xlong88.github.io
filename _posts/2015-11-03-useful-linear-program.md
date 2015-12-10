@@ -7,9 +7,10 @@ image:
   background: triangular.png
 ---
 
-## Primal \& Dual
+## Primal & Dual
 
 1. Form 1:
+
 **Primal**:
 
 $$\begin{align}max.&\quad\mathbf{c}^T \mathbf{x}&\\
@@ -22,7 +23,7 @@ $$
 $$
 \begin{align}min.&\quad\mathbf{b}^T\mathbf{x}&\\
 s.t.&&\\
-&\mathbf{A}^T\mathbf{x}=\mathbf{c}^T&\\
+&\mathbf{A}^T\mathbf{x}=\mathbf{c}&\\
 &\mathbf{x}\ge \mathbf{0}&\end{align}
 $$
 
