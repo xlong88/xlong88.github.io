@@ -11,9 +11,9 @@ image:
 
 1. Form 1:
 
-$$\begin{align}max.&\mathbf{c}^T \mathbf{x}&\\
+$$\begin{align}max.&\quad\mathbf{c}^T \mathbf{x}&\\
 s.t.&&\\
-&\mathbf{A}\mathbf{x} &\le b\end{align}
+&\mathbf{A}\mathbf{x} \le b&\end{align}
 $$
 
 
