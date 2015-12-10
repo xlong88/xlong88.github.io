@@ -9,7 +9,7 @@ image:
 
 ## Primal & Dual
 
-1. Form 1:   
+### 1. Form 1:   
 
   **Primal**:
 
