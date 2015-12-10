@@ -11,14 +11,14 @@ image:
 
 1. Form 1:
 
-**Primal**:
+  **Primal**:
 
 $$\begin{align}max.&\quad\mathbf{c}^T \mathbf{x}&\\
 s.t.&&\\
 &\mathbf{A}\mathbf{x} \le \mathbf{b}&\end{align}
 $$
 
-**Dual**:
+  **Dual**:
 
 $$
 \begin{align}min.&\quad\mathbf{b}^T\mathbf{x}&\\
