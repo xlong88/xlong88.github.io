@@ -86,6 +86,7 @@ body {
 			color: $white;
 		}
 		@media #{$large} {
+		    @include font-rem(40);
 		}
 	}
 	h2 {
