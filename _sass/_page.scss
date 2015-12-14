@@ -43,10 +43,10 @@ body {
 		@include font-rem(32);
 		color: lighten($base-color,20);
 		@media #{$medium} {
-			@include font-rem(48);
+			@include font-rem(36);
 		}
 		@media #{$large} {
-			@include font-rem(60);
+			@include font-rem(40);
 		}
 	}
 	h2 {

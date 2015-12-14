@@ -14,7 +14,7 @@ options -> options interfaces ... -> Advanced Configuration ... -> Event Handler
 the file looks like this:
 
 
-```
+~~~
 // WinEdt Exit (Cleanup) Macro
  
    PushTagsandRegisters;
@@ -31,7 +31,7 @@ the file looks like this:
  PopTagsandRegisters;
  
  End; 
- ``` 
+~~~
 
 
 ## Add Following Sentence Just Before **"End;"** 
