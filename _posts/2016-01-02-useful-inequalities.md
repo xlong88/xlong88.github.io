@@ -19,9 +19,9 @@ $$
 
 _proof_: 
 
-$$\begin{aligned}\binom{n}{k} &=& \frac{n!}{(n-k)! k!}\\
-                              &=& \frac{n(n-1)(n-2)\cdots (n -k + 1)}{k!}\\
-                              &=& \frac{n^k}{k!}
+$$\begin{aligned}\binom{n}{k} &= \frac{n!}{(n-k)! k!}\\
+                              &= \frac{n(n-1)(n-2)\cdots (n -k + 1)}{k!}\\
+                              &= \frac{n^k}{k!}
   \end{aligned}
 $$
 
@@ -52,15 +52,15 @@ According the above two inequalities, it is easy to obtain this inequality.
 
 _proof_:
 
-$$\begin{aligned}\binom{n}{k} &=& \frac{n!}{(n-k)! k!}\\
-                              &=& \frac{n(n-1)(n-2)\cdots (n -k + 1)}{k!}\\
-                              &=& \prod_{i = 0}^{k - 1} \frac{n - i}{k - i}
+$$\begin{aligned}\binom{n}{k} &= \frac{n!}{(n-k)! k!}\\
+                              &= \frac{n(n-1)(n-2)\cdots (n -k + 1)}{k!}\\
+                              &= \prod_{i = 0}^{k - 1} \frac{n - i}{k - i}
   \end{aligned}
 $$
 
 As, 
 
-$$n \ge k \ge 0 \Rightarrow in \ge ik \forall i > 0$$
+$$n \ge k \ge 0 \Rightarrow in \ge ik \qquad \forall i > 0$$
 
 Hence, for any $$i = 1,2,...,k-1$$,
 
@@ -68,8 +68,9 @@ $$kn - ik \ge kn - in \Rightarrow \frac{n-i}{k-i} \ge \frac{n}{k}$$
 
 Therefore,
 
-$$\begin{aligned}\binom{n}{k} &=& \prod_{i = 0}^{k - 1} \frac{n - i}{k - i}\\
-                              &\ge& \prod_{i = 0}^{k - 1}\frac{n}{k}\\
-                              &=& \left(\frac{n}{k}\right)^k
+$$\begin{aligned}\binom{n}{k} &= \prod_{i = 0}^{k - 1} \frac{n - i}{k - i}\\
+                              &\ge \prod_{i = 0}^{k - 1}\frac{n}{k}\\
+                              &= \left(\frac{n}{k}\right)^k
+  \end{qligned}
 $$
 
