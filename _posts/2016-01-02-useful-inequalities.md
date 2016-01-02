@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Probability
-description: "useful probability"
+title: Useful Inequalities
+description: "useful inequalities"
 tags: [AM post]
 image:
   background: triangular.png
@@ -13,7 +13,9 @@ $$
 n!=\sqrt{2\pi n}\left(\frac{n}{e}\right)^n\left(1 + \frac{1}{12n} + O\left(\frac{1}{n^2}\right)\right)
 $$
 
-## Useful Inequalities For Approximating Combinatorial Numbers
+_proof_: [TO BE ADDED]
+
+## $$\binom{n}{k}$$ Related 
 
 ### 1. \\(\binom{n}{k}\le \frac{n^k}{k!}\\)
 
