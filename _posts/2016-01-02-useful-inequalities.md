@@ -71,6 +71,6 @@ Therefore,
 $$\begin{aligned}\binom{n}{k} &= \prod_{i = 0}^{k - 1} \frac{n - i}{k - i}\\
                               &\ge \prod_{i = 0}^{k - 1}\frac{n}{k}\\
                               &= \left(\frac{n}{k}\right)^k
-  \end{qligned}
+  \end{aligned}
 $$
 
