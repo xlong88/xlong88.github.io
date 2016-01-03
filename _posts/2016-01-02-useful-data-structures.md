@@ -18,8 +18,7 @@ In standard bloom filter, the baseline data structure is a [bit array](https://e
 
 At the very beginning, all of its bits are set to $$0$$. Standard bloom filter supports the following two operations:
 
-1. **INSERT**: the following pseudo-code inserts all elements of set $$S$$ into the bloom filter. 
-  
+1. **INSERT**: the following pseudo-code inserts all elements of set $$S$$ into the bloom filter.  
     ~~~python
     for x in S:
         for h in hash_functions.value():
@@ -27,11 +26,10 @@ At the very beginning, all of its bits are set to $$0$$. Standard bloom filter s
     ~~~
 
 2. **QUERY**: the following pseudo-code queries whether $$y \in S$$.  
-
     ~~~python
     answer = True
     for h in hash_functions.value():
         answer &= B[h(y)] == 1
     ~~~
-    
+
 
