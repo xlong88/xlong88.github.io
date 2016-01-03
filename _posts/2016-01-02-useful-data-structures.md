@@ -25,3 +25,12 @@ for x in S:
     for h in hash_functions.value():
         B[h(x)] = 1
 ~~~
+
+2. **QUERY**: the following pseudo-code queries whether $$y \in S$$.
+
+~~~python
+answer = True
+for h in hash_functions.value():
+    answer &= B[h(y)] == 1
+~~~
+
