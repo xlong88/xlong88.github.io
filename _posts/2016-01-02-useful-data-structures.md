@@ -20,11 +20,12 @@ At the very beginning, all of its bits are set to $$0$$. Standard bloom filter s
 
 * **INSERT**: the following pseudo-code inserts all elements of set $$S$$ into the bloom filter. 
 ^
-~~~python
-for x in S:
-    for h in hash_functions.value():
-        B[h(x)] = 1
-~~~       
+    ~~~python
+    for x in S:
+        for h in hash_functions.value():
+            B[h(x)] = 1
+    ~~~
+           
 * **QUERY**: the following pseudo-code queries whether $$y \in S$$. 
 ^
 ~~~python
