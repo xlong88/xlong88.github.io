@@ -14,13 +14,13 @@ However, bloom filter has a so-call false positive issue, where it may answer "Y
 
 ### Algorithmic Description
 
-In standard bloom filter, the baseline data structure is a [bit array](https://en.wikipedia.org/wiki/Bit_array) of $$m$$ bits with $$k \ge 1$$ **independent** hash functions. In this following description, we will use $$B[1..m}$$ to denote the bit array, and $$h_1, h_2, ..., h_k$$ to represent the $$k$$ hash functions.
+In standard bloom filter, the baseline data structure is a [bit array](https://en.wikipedia.org/wiki/Bit_array) of $$m$$ bits with $$k \ge 1$$ **independent** hash functions. In this following description, we will use $$B[1..m]$$ to denote the bit array, and $$h_1, h_2, ..., h_k$$ to represent the $$k$$ hash functions.
 
 At the very beginning, all of its bits are set to $$0$$. Standard bloom filter supports the following two operations:
 
 1. **INSERT**: the following pseudo-code inserts all elements of set $$S$$ into the bloom filter. 
 
-~~~
+~~~python
 for x in S:
     for h in hash_functions.value():
         B[h(x)] = 1
