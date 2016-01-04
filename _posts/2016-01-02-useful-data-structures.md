@@ -29,11 +29,12 @@ At the very beginning, all of its bits are set to $$0$$. Standard bloom filter s
 
 2. **QUERY**: the following pseudo-code queries whether $$y \in S$$. 
    
-~~~python
-answer = True
-for h in hash_functions.value():
-    answer &= B[h(y)] == 1
-~~~
+    ~~~python
+    answer = True
+    for h in hash_functions.value():
+        answer &= B[h(y)] == 1
+    ~~~
+    {: .special}
 
 
 
