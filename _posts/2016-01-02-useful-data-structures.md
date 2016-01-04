@@ -25,7 +25,6 @@ At the very beginning, all of its bits are set to $$0$$. Standard bloom filter s
             for h in hash_functions.value():
                 B[h(x)] = 1
         ~~~
-        {: .indent}
 
 2. **QUERY**: the following pseudo-code queries whether $$y \in S$$. 
    
