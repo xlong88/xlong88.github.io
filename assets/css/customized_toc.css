@@ -1,0 +1,37 @@
+.table-of-contents {
+  float: right;
+  width: 40%;
+  border: 1px solid #AAA;
+  background-color: #F9F9F9;
+  font-family: sans-serif;
+  font-size: 78%; 
+  padding: 6px;
+  margin: 1.4em 0 0.5em 0.5em;
+}
+.table-of-contents ul {
+  padding: 0;
+  list-style-type: none;
+  margin-left: 5px;
+}
+.table-of-contents ul ul{
+  margin-left: 8px;
+}
+.table-of-contents ul ul ul{
+  margin-left: 10px;
+}
+.table-of-contents ul ul ul ul{
+  margin-left: 12px;
+}
+.table-of-contents li {
+  margin: 0 0 0.25em 0;
+  text-align: left;
+}
+.table-of-contents a {
+  color: #0645AD;
+  background: transparent none repeat scroll 0% 0%;
+  text-decoration: none;
+}
+.table-of-contents a:hover,
+.table-of-contents a:active {
+  text-decoration: underline;
+}
