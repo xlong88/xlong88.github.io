@@ -7,7 +7,7 @@ $(document).ready(function(){
         citeStr += contents.substr(n + 1) + ";";
 	});
 	citeStr = citeStr.substr(0,citeStr.length - 1);
-	var url = "http://localhost/test-bibtexjs/phpBibLib/example/myexample.php";
+	var url = "http://www.cc.gatech.edu/~lgong30/phpBibLib/example/myexample.php";
     var data = {"cite": citeStr};
 	$.post(url,data,function(data)
 	{

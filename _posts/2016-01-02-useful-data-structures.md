@@ -12,7 +12,7 @@ image:
 
 ## 1. Bloom Filter
 
-*Bloom filter@Bloom1970@BonomiMitzenmacherPanigrahyEtAl2006*{: .cite} is a space-efficient probabilistic data structure. It is used for membership query, _i.e.,_ answering the question whether an element $$y$$ belongs to a given set $$S$$.
+*Bloom filter@Bloom1970*{: .cite} is a space-efficient probabilistic data structure. It is used for membership query, _i.e.,_ answering the question whether an element $$y$$ belongs to a given set $$S$$.
 However, bloom filter has a so-call false positive issue, where it may answer "YES" when $$y \notin S$$. 
 
 ### 1.1 Algorithmic Description
@@ -96,9 +96,7 @@ k = \frac{m}{n}\ln 2
 \end{equation}
 $$
 
-## test citation
 
-gdjgdjfgjdsgj*jvbvbvb@YuZhangZhaoEtAl2015*{: .cite}ghgjjgjgjgjghgjjggjgjghj, hdjkfdj khkdhkhdkhk hkdhkfhkdfhkhk hkfdhkfhksdh khkhk*hjhjhj@LiuLi2015*{: .cite}
 
 **References**{: .reference}
 
