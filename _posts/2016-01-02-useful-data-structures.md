@@ -10,6 +10,23 @@ image:
 * auto-gen TOC:
 {:toc}
 
+## Hashing
+
+### Basic Concepts
+
+**Definition 1: [Simple Uniform Hashing]** A randomized algorithm $$H$$ for constructing hash functions $$h: U \rightarrow \{1,...,M\}$$ is called as simple uniform hashing, if given any element is $$U$$ is equally likely to hash into any of the $$M$$ slots.
+
+**Definition 1: [Universal Hashing]** A randomized algorithm $$H$$ for constructing hash functions $$h: U \rightarrow \{1,...,M\}$$ is called universal, if for any $$x \neq y$$ in $$U$$, we have,
+
+$$
+pr_{h \leftarrow H}[h(x) = h(y)] \le \frac{1}{M},
+$$
+
+We also say that a set H is a **universal hash function family** if randomly choosing $$h \in H$$ produces a universal hashing.
+
+
+### Performances
+
 ## 1. Bloom Filter
 
 *Bloom filter@Bloom1970*{: .cite} is a space-efficient probabilistic data structure. It is used for membership query, _i.e.,_ answering the question whether an element $$y$$ belongs to a given set $$S$$.
