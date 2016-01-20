@@ -95,7 +95,7 @@ $$
 #### 3.1.1 Basis Version
 Given any random variable $$X$$ and $$a > E(X)$$, we have,
 
-$$\mathbb{X \ge a} \le \frac{\mathbb{E}(X)}{a}.$$
+$$\mathbb{P}(X \ge a) \le \frac{\mathbb{E}(X)}{a}.$$
 
 _proof_:
 
@@ -121,8 +121,11 @@ _proof_
 #### 3.2.2 Extensions
 
 1. **Asymmetric case**: for any $$k_1 + k_2 = 0$$ and $$k_1 < k_2$$, we have,
+
 $$ \mathbb{P}(k_1 < X < k_2) \ge 1 - \frac{\sigma^2}{(k_2 - k_1)^2},$$
 _proof_
-2. **Vector Version**: for a random vector $$X = (x_1,x_2,...,)$$ with mean $$\mu = (\mu_1,\mu_2,...)$$, variance $$\sigma^2=(\sigma_1^2,\sigma_2^2,...)$$ and an arbitrary norm $$\mid\mid\cdot\mid\mid$$ that,
+2. **Vector Version**: for a random vector $$X = (x_1,x_2,...,)$$ with mean 
+
+$$\mu = (\mu_1,\mu_2,...)$$, variance $$\sigma^2=(\sigma_1^2,\sigma_2^2,...)$$ and an arbitrary norm $$\mid\mid\cdot\mid\mid$$ that,
 $$ \mathbb{P}(\mid\mid X - \mu\mid\mid \ge k \mid\mid \sigma\mid\mid) \le \frac{1}{k^2}$$.
 _proof_
