@@ -86,6 +86,17 @@ $$\begin{aligned}\binom{n}{k} &= \prod_{i = 0}^{k - 1} \frac{n - i}{k - i}\\
   \end{aligned}
 $$
 
+### 2.5 Summation of Odd Elements
+Give a binomial distribution $$\mathbb{B}(n,p)$$, the summation of all odd elements is,
+
+$$
+\begin{aligned}
+\methbb{P}(j \mbox{ is odd }) &= \sum_{k = 0}^{2k + 1 <= n}\binom{n}{2k + 1}p^(2k + 1)(1 - p)^(n - 2k - 1)\\
+                              &= \frac{1}{2}(1 - (1 - 2p)^n)
+\end{aligned}
+$$
+
+
 ## 3. In Probability Theory
 
 ### 3.1. Markov's Inequality
@@ -116,12 +127,18 @@ $$\mathbb{P}(\mid X - \mu \mid \ge k \sigma) \le \frac{1}{k^2}.$$
 
 _proof_
 
+Another expression is as follows:
 
+$$\mathbb{P}(\mid X - \mu\mid \ge t) \le \frac{\sigma^2}{t^2},$$
+
+For any $$t > 0$$, the above expression can also written as,
+
+$$\mathbb{P}(\mid X - \mu \mid < t) > 1 - \frac{\sigma^2}{t^2},$$
+
+_proof_
 
 #### 3.2.2 Extensions
-
 1. **Asymmetric case**: for any $$k_1 + k_2 = 0$$ and $$k_1 < k_2$$, we have,
-
 $$ \mathbb{P}(k_1 < X < k_2) \ge 1 - \frac{\sigma^2}{(k_2 - k_1)^2},$$
 _proof_
 2. **Vector Version**: for a random vector $$X = (x_1,x_2,...,)$$ with mean 
@@ -129,3 +146,40 @@ _proof_
 $$\mu = (\mu_1,\mu_2,...)$$, variance $$\sigma^2=(\sigma_1^2,\sigma_2^2,...)$$ and an arbitrary norm $$\mid\mid\cdot\mid\mid$$ that,
 $$ \mathbb{P}(\mid\mid X - \mu\mid\mid \ge k \mid\mid \sigma\mid\mid) \le \frac{1}{k^2}$$.
 _proof_
+
+## 4. In Real Analysis
+
+### 4.1. Holder's Inequality
+Suppose that $$\mu_1, \mu_2, ..., \mu_n$$ and $$v_1, v_2, ..., v_n$$ are non-negative numbers, let $$p > 1$$, and $$q$$ is the dual of $$p$$ that is,
+
+$$ \frac{1}{p} + \frac{1}{q} = 1$$
+
+Then, we have 
+
+$$ \sum_{i = 1}^{n} \mu_i v_i \le \left(\sum_{i = 1}^n\mu_i^p\right)^{1/p}\left(\sum_{i = 1}^n v_i^q\right)^{1/q}.$$
+
+**Lemma**: Given any two non-negative numbers $$\alpha$$ and $$\beta$$, and two positive numbers $$p$$ and $$q$$ such that,
+
+$$\frac{1}{p} + \frac{1}{q} = 1$$,
+
+then, we have,
+
+$$ \alpha \beta \le \frac{\alpha^p}{p} + \frac{\beta^q}{q}.$$
+
+### 4.2. Minkowski's Inequality
+Suppose that $$\mu_1, \mu_2, ..., \mu_n$$ and $$v_1, v_2, ..., v_n$$ are two non-negative sequences and $$p > 1$$, then,
+
+$$\left(\sum_{i = 1}^{n} (\mu_i + v_i)^p\right)^{1/p} \le \left(\sum_{i = 1}^{n}\mu_i^p\right)^{1/p} + \left(\sum_{i = 1}^{n} v_i^p\right)^{1/p}.$$
+
+
+### 4.3. Infinite Norm
+If $$\mathbf{X} \in \mathbb{R}^n$$ and $$p_2 > p_2 \le 1$$, then,
+
+$$ \mid\mid \mathbf{X} \mid\mid_{p_2} \le \mid\mid \mathbf{X} \mid\mid_{p_1}.$$
+
+moreover,
+
+$$ \lim_{p \rightarrow \infty}\mid\mid \mathbf{X}\mid\mid_{p} = \max \{\midx_i\mid:1 \le i \le n\}.$$
+
+### 4.4 Convergent Sequence & Cauchy Sequence
+If a sequence $$\{\mu_n\}$$ in a metric space $$(A,\rho)$$ is convergent, then it is a Cauchy sequence.
