@@ -9,17 +9,22 @@ image:
 * auto-gen TOC:
 {:toc}
 
-## 1. Stirling's Formula
+In this post, a lot of useful equations would be introduced, and mots of them would be proved formally.
 
-$$
-n!=\sqrt{2\pi n}\left(\frac{n}{e}\right)^n\left(1 + \frac{1}{12n} + O\left(\frac{1}{n^2}\right)\right)
-$$
 
-_proof_: [TO BE ADDED]
 
-## 2. Binomial Distribution  
 
-### 2.1. Version 1
+
+
+
+
+## 3. In Probability Theory
+
+### 3.1. Combinatorial Number Approximation
+
+This subsection describes several ways to approximate the combinatorial numbers, which would be very useful for example when doing some analysis on binomial distribution.
+
+#### 3.1.1. By Power Function
 
 $$\binom{n}{k} \le \frac{n^k}{k!}$$
 
@@ -31,7 +36,7 @@ $$\begin{aligned}\binom{n}{k} &= \frac{n!}{(n-k)! k!}\\
   \end{aligned}
 $$
 
-### 2.2. Version 2
+**Lemma**:
 
 $$\frac{1}{k!} \le \frac{e^k}{k^k}$$
 
@@ -49,7 +54,7 @@ Hence,
 
 $$\frac{1}{k!} \le \frac{e^k}{k^k}$$
 
-### 2.3. Version 3
+### 3.1.2 By Exponential Function (Upper)
 
 $$\binom{n}{k}\le \left(\frac{ne}{k}\right)^k$$
 
@@ -58,7 +63,7 @@ _proof_:
 According the above two inequalities, it is easy to obtain this inequality.
 
 
-### 2.4. Version 4
+#### 3.1.3. By Exponential Function (Lower)
 
 $$\binom{n}{k} \ge \left(\frac{n}{k}\right)^k$$
 
@@ -86,18 +91,15 @@ $$\begin{aligned}\binom{n}{k} &= \prod_{i = 0}^{k - 1} \frac{n - i}{k - i}\\
   \end{aligned}
 $$
 
-### 2.5 Summation of Odd Elements
+### 3.2 Summation of Odd Elements (In BD)
 Give a binomial distribution $$\mathbb{B}(n,p)$$, the summation of all odd elements is,
 
 $$
 \begin{aligned}
-\methbb{P}(j \mbox{ is odd }) &= \sum_{k = 0}^{2k + 1 <= n}\binom{n}{2k + 1}p^(2k + 1)(1 - p)^(n - 2k - 1)\\
+\mathbb{P}(j \mbox{ is odd }) &= \sum_{k = 0}^{2k + 1 <= n}\binom{n}{2k + 1}p^{2k + 1}(1 - p)^{n - 2k - 1}\\
                               &= \frac{1}{2}(1 - (1 - 2p)^n)
 \end{aligned}
 $$
-
-
-## 3. In Probability Theory
 
 ### 3.1. Markov's Inequality
 
