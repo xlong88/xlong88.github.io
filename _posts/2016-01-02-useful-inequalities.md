@@ -91,7 +91,7 @@ $$\begin{aligned}\binom{n}{k} &= \prod_{i = 0}^{k - 1} \frac{n - i}{k - i}\\
   \end{aligned}
 $$
 
-### 3.2 Summation of Odd Elements (In BD)
+### 3.2 Binomial Distribution
 Give a binomial distribution $$\mathbb{B}(n,p)$$, the summation of all odd elements is,
 
 $$
@@ -181,7 +181,7 @@ $$ \mid\mid \mathbf{X} \mid\mid_{p_2} \le \mid\mid \mathbf{X} \mid\mid_{p_1}.$$
 
 moreover,
 
-$$ \lim_{p \rightarrow \infty}\mid\mid \mathbf{X}\mid\mid_{p} = \max \{\midx_i\mid:1 \le i \le n\}.$$
+$$ \lim_{p \rightarrow \infty}\mid\mid \mathbf{X}\mid\mid_{p} = \max \{\mid x_i\mid:1 \le i \le n\}.$$
 
 ### 4.4 Convergent Sequence & Cauchy Sequence
 If a sequence $$\{\mu_n\}$$ in a metric space $$(A,\rho)$$ is convergent, then it is a Cauchy sequence.
