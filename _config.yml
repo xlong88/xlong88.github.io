@@ -12,13 +12,13 @@ owner:
   name:           Long Gong
   avatar:         avatar.JPG
   bio:            "Hi, I am Long, a CS PhD@GaTech."
-  email:          gonglong.gl@qq.com
+  email:          gonglong.gatech@gmail.com
   # Social networking links used in footer. Update and remove as you like.
   twitter:        
   facebook:       
-  github:         
+  github: https://github.gatech.edu/lgong30       
   stackexchange:  
-  linkedin:       
+  linkedin: https://www.linkedin.com/in/long-gong-14292859?trk=hp-identity-name    
   instagram:      
   flickr:         
   tumblr:         
