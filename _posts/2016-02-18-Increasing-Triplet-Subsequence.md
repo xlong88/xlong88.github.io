@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Coding Practice: [Leetcode 334] Increasing Triplet Subsequence
+title: Coding Practice: \[Leetcode 334\] Increasing Triplet Subsequence
 description: "algorithms to fins the increasing triplet subsequence"
 tags: [algorithms,programming]
 image:
