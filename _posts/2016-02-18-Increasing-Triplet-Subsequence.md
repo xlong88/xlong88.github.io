@@ -7,7 +7,7 @@ image:
   background: triangular.png
 ---
 
-# [Leetcode 334]Increasing Triplet Subsequence
+## [Leetcode 334]Increasing Triplet Subsequence
 
 Given an array, return whether an increasing subsequence of length 3 exists or not in the array, _i.e.,_ given array $$A$$, if there exist $$0 \leq i < j < k \leq n - 1$$ such that $$A[i] < A[j] < A[k]$$, return true, otherwise, return false. More details you can refer to [leetcode 334](https://leetcode.com/problems/increasing-triplet-subsequence/).
 
