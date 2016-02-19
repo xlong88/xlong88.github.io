@@ -11,19 +11,19 @@ url: http://xlong88.github.io
 owner:
   name:           Long Gong
   avatar:         avatar.JPG
-  bio:            "Hi, I am Long, a CS PhD@GaTech."
+  bio:            "Hi, I am Long Gong, a CS PhD@GaTech."
   email:          gonglong.gatech@gmail.com
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        
-  facebook:       
+  twitter: longgong4       
+  facebook: long.gong.1253      
   github: lgong30       
-  stackexchange:  
+  stackexchange: http://stackexchange.com/users/7821713/long-gong
   linkedin: long-gong-14292859?trk=hp-identity-name    
   instagram:      
   flickr:         
   tumblr:         
   # google plus id, include the '+', eg +mmistakes
-  google_plus:    +yourid
+  google_plus:  https://plus.google.com/u/0/110949116838066051866/posts
 
 # Background image to be tiled on all pages
 background: 
