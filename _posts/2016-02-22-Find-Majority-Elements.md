@@ -41,6 +41,46 @@ Obviously, there are at most $$\lfloor\frac{1}{\theta}\rfloor$$ majority element
 
 ### Smarter Solution
 
+Actually, it turns out we can achieve $$O(\frac{1}{\theta})$$ space solution by using similar ideas as [Boyer–Moore majority vote algorithm](https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_majority_vote_algorithm), which is an space-efficient linear-time algorithm to find the $$0.5$$ majority element in an sequence. 
+
+The following provides that pseudo codes.
+
+~~~python
+# INPUT/OUTPUT the same as before
+
+N = len(A)
+counters = {}
+
+M = int(1.0 / theta)
+for x in A:
+    if counters.has_key(x):
+        counters[x] += 1
+    else:
+        counters[x] = 1
+
+    if len(counters) > M:
+        for key in counters:
+            counters[key] -= 1
+            if counters[key] == 0:
+                del counters[key]
+
+# check all survived keys in counters
+for key in counters:
+    counters[key] = 0
+
+for x in A:
+    if counters.has_key(x):
+        counters[x] += 1
+
+K = []
+threshold = int(theta * N)
+for key in counters:
+    if counters[key] > threshold:
+        K.append(key)
+~~~
+
+
+
 
 
 
