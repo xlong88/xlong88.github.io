@@ -37,7 +37,7 @@ for key, value in counters.iteritems():
 
 Let do some analysis on the above algorithm. First of all, let's introduce some notations. Let $$\Sigma$$ be the set of alphabets, and $$\Sigma^* = (x_1,x_2,...,x_N)$$ be all the possible sequences that can be constructed by using the alphabets from $$\Sigma$$. Let $$A \in \Sigma^*$$ be a sequence. And $$\mid \Sigma \mid = n$$, $$\mid A \mid = N$$, $$0 < \theta \leq 1$$, and $$m$$ is the number of unique elements in $$A$$. 
 
-Obviously, there are at most $$\lfoor\frac{1}{\theta}\rfloor$$ majority elements in $$A$$. However, in this basic hashing solution, we need $$O(m)$$ space, and $$O(N)$$ time. That is to say, when $$m \gg \lfoor\frac{1}{\theta}\rfloor$$ (this is the common case that we might encounter in real-life), we would waste a large amount of memory, because amongst all these counters, there are at most $$\lfoor\frac{1}{\theta}\rfloor$$ would be larger than $$\theta\cdot N$$. So, could we achieve $$O(\frac{1}{\theta})$$ space complexity?
+Obviously, there are at most $$\lfloor\frac{1}{\theta}\rfloor$$ majority elements in $$A$$. However, in this basic hashing solution, we need $$O(m)$$ space, and $$O(N)$$ time. That is to say, when $$m \gg \lfloor\frac{1}{\theta}\rfloor$$ (this is the common case that we might encounter in real-life), we would waste a large amount of memory, because amongst all these counters, there are at most $$\lfloor\frac{1}{\theta}\rfloor$$ would be larger than $$\theta\cdot N$$. So, could we achieve $$O(\frac{1}{\theta})$$ space complexity?
 
 ### Smarter Solution
 
