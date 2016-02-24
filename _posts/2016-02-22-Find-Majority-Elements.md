@@ -43,6 +43,8 @@ Obviously, there are at most $$\lfloor\frac{1}{\theta}\rfloor$$ majority element
 
 Actually, it turns out we can achieve $$O(\frac{1}{\theta})$$ space solution by using similar ideas as [Boyer–Moore majority vote algorithm](https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_majority_vote_algorithm), which is an space-efficient linear-time algorithm to find the $$0.5$$ majority element in an sequence. 
 
+This method was first proposed by [Richard M. Karp](https://www.eecs.berkeley.edu/Faculty/Homepages/karp.html), [Scott Shenker](https://www.eecs.berkeley.edu/Faculty/Homepages/shenker.html), and [Christos H. Papadimitriou](https://www.cs.berkeley.edu/~christos/) in *@KarpShenkerPapadimitriou2003*{: .cite} and [Erik D. Demaine](http://erikdemaine.org/) _et al_ in *DemaineLopezOrtizMunro2002*{: .cite}. It works as follows. It increases the number of counters as encountering new elements when passing through the sequence, and whenever the number of counters reaches $$\lceil \frac{1}{\theta}\rceil$$, it starts to decrease all the counters by one, and if any counter reaches $$0$$, removing it. Therefore, it can guarantee that there are at most $$\lceil \frac{1}{\theta}\rceil$$ counters. It is easy to figure out if an element has occurrences more than $$\theta \cdot N$$, its counter must survive. Therefore, if we define $$S$$ as the set of elements whose counters survived after passing through all the elements in the sequence. The the set of majority elements must be a subset of $$S$$. Therefore, by passing through the sequence again checking whether the occurrences of elements in $$S$$ exceed $$\theta \cdot N$$, we can obtain all the majority elements.
+
 The following provides that pseudo codes.
 
 ~~~python
@@ -81,7 +83,7 @@ for key in counters:
 
 
 
-
+**References**{: .reference}
 
 
 
