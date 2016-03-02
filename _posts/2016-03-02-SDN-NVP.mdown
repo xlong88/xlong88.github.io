@@ -1,0 +1,20 @@
+---
+layout: post
+title: Project - Network Virtualization Platform
+description: "a network virtualization platform based on software defined networking"
+tags: [algorithms,programming]
+image:
+  background: triangular.png
+---
+
+## Descriptions
+
+### A Video Demo 
+
+The following video shows how a user apply our network virtualization platform to create and manage their virtual networks.
+
+![ ](../attachments/demo.mp4)
+
+Model details your can refer to my [defense ppt](../attachments/defense_ppt.pptx) and the system part of [my master thesis](../attachments/master_thesis.pdf).
+ 
+
