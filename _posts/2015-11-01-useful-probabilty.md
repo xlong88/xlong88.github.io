@@ -67,28 +67,38 @@ $$\mathbb{P}(T \ge c \mathbb{E}(T)) \le e^{-z\mathbb{E}(T)}$$
 where $$z = c \ln c + 1 - c > 0$$.
 
 
-## Bayes's Rule
+## 3. Bayes's Rule
 
-### Discrete Case
+### 3.1. Discrete Case
 
 $$\mathbb{P}_{X|Y}(x\mid y) = \frac{\mathbb{P}_{X,Y}(x,y)}{\mathbb{P}_Y(y)} = \frac{\mathbb{P}_X(x)\mathbb{P}_{Y|X}(y\mid x)}{\mathbb{P}_Y(y)}.$$
 
 $$ \mathbb{P}_Y(y) = \sum_{x}\mathbb{P}_X(x)\mathbb{P}_{Y\mid X}(y \mid x).$$
 
-### Continuous Counterpart
+### 3.2. Continuous Counterpart
 
 $$f_{X\mid Y}(x|y)=\frac{f_{X,Y}(x,y)}{f_Y(y)} = \frac{f_X(x)f_{Y|X}(x|y)}{f_Y(y)}.$$
 
 $$f_Y(y) = \int f_X(x)f_{Y|X}(y|x) dx.$$
 
-### Mixed Case 
+### 3.3. Mixed Case 
 Discrete $$X$$, and Continuous $$Y$$,
 
 $$\mathbb{P}_{X\mid Y}(x \mid y) = \frac{\mathbb{P}_X(x)f_{Y\mid X}(y\mid x)}{f_Y(y)}.$$
 
 $$f_Y(y) = \sum_{x} \mathbb{P}_{X}(x) f_{Y\mid X}(y\mid x).$$
 
+## 4. Union Bound
 
+**Union bound** also known as [**Boole's inequality**](https://en.wikipedia.org/wiki/Boole%27s_inequality), which is a very simple but useful inequality in probability theory. 
+
+Mathematically, let $$A_i,i=1,2,...,n$$ be a series of events, and $$\mathbb{P}(A_i)$$ denotes its occurrence probability. The **Boole's inequality** says that,
+
+$$
+\mathbb{P}(\cup_{j=1}^{n}) \leq \sum_{j=1}^{n}\mathbb{P}(A_i).
+$$
+
+Which can be considered as a special case of **sub-additivity property** of Lebesgue measure. 
 
 
 
