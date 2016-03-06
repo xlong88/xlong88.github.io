@@ -95,7 +95,7 @@ $$f_Y(y) = \sum_{x} \mathbb{P}_{X}(x) f_{Y\mid X}(y\mid x).$$
 Mathematically, let $$A_i,i=1,2,...,n$$ be a series of events, and $$\mathbb{P}(A_i)$$ denotes its occurrence probability. The **Boole's inequality** says that,
 
 $$
-\mathbb{P}(\cup_{j=1}^{n}) \leq \sum_{j=1}^{n}\mathbb{P}(A_i).
+\mathbb{P}(\cup_{j=1}^{n}A_j) \leq \sum_{j=1}^{n}\mathbb{P}(A_i).
 $$
 
 Which can be considered as a special case of [**sub-additivity property** of Lebesgue measure](http://math.stackexchange.com/questions/71605/proof-of-subadditivity-of-the-lebesgue-measure). I guess the **additivity** of the probabilities for mutual excursive events (_i.e._, the countable additivity property of the measure for disjoint measurable sets) which is usually stated in the definition of [**probability**](https://en.wikipedia.org/wiki/Probability) might be better-known to most of us.
