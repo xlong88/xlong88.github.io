@@ -157,7 +157,7 @@ Create a file named "machinefile" in mpiu's home directory with node names follo
 
 Change directory to your  mirror folder and write this MPI hellowworld program in a file mpi_hello.c:
 
-~~~C++
+~~~
 #include<stdio.h>
 #inlcude<mpi.h>
 int main(int argc, char** argv){
@@ -170,6 +170,8 @@ int main(int argc, char** argv){
     return 0;
 }
 ~~~
+{:language="C++""}
+
 
 compile it:
 
