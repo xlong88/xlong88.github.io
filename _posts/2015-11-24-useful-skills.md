@@ -68,11 +68,11 @@ _ReSharper*/
   
 ## Push Local Branch to New Remote Repository
 
-Suppose you have made a empty repository and named it _myapp.git_, you can:
+Suppose you have made a empty repository and named it _myapp.git_, you can:  
 ~~~shell    
 git remote add <branch_name> <repository_url>
 ~~~
-where _<branch\_name>_ can be any valid name you want. Then, you can push your local branch to the newly created remote repository by using
+where _<branch\_name>_ can be any valid name you want. Then, you can push your local branch to the newly created remote repository by using  
 ~~~shell
 git push <branch_name> master
 ~~~
