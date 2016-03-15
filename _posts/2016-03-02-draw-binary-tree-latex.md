@@ -34,7 +34,7 @@ dot -Tpng bt.dot -o bt.png
 
 After running the command, you will find **bt.png** in the same directory as **bt.dot**. This figure is shown below. (Note that, it seems that Graphviz on Mac does not support png yet, so if you use Mac to go through this example, we can change **png** to **ps** or any other types that are supported.)
 
-![ ](../images/in-posts/2016-03/bt-graphviz.png){: width="40%"}
+![ ](../images/in-posts/2016-03/bt-graphviz.png){: width="25%"}
 {: style="text-align:center"}
 
 Of course, Graphviz is much more powerful than that, if you are interested you can refer to the following tutorials:
