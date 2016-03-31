@@ -18,7 +18,7 @@ $$
 \liminf_{n \rightarrow \infty} x_n = \sup_{n\geq 0}\inf_{m \geq n} x_m = \sup\{\\inf\{x_m: m \geq n\}:n \geq 0\}.
 $$  
 
-Similarly, the limit superior of $$\{x_n\} is defined by  
+Similarly, the limit superior of $$\{x_n\}$$ is defined by  
 $$
 \limsup_{n \rightarrow \infty} x_n = \lim_{n \rightarrow \infty}(\sup_{m \geq n} x_m)
 $$  
