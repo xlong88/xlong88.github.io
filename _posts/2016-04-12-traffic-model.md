@@ -9,13 +9,13 @@ image:
 
 ## Traffic Matrices for Switching Simulations
 
-Let $$\lambda_{ij}$$ be the average arrival rate of the $$(i,j)$$ entry in the traffic matrix, let $$\pho$$ be the normalized load, let $$N$$ be the number of (input or output) ports. Let $$[k] = (k \mod N)$$. 
+Let $$\lambda_{ij}$$ be the average arrival rate of the $$(i,j)$$ entry in the traffic matrix, let $$\rho$$ be the normalized load, let $$N$$ be the number of (input or output) ports. Let $$[k] = (k \mod N)$$. 
 
-1. `Uniform`: $$\lambda_{ij} = \frac{\pho}{N}$$
-2. `Diagonal`: $$\lambda_{ii} = \frac{2\pho}{3}$$, $$\lambda_{i[i+1]} = \frac{\pho}{3}$$, for any $$i$$, and $$\lambda_{ij} = 0$$ for all other $$i,j$$.
-3. `Log Diagonal`: $$\lambda_{ij} = 2\lambda_{i[j+1]}$$ and $$\sum_{i}\lambda_{ij} = \pho$$
+1. `Uniform`: $$\lambda_{ij} = \frac{\rho}{N}$$
+2. `Diagonal`: $$\lambda_{ii} = \frac{2\rho}{3}$$, $$\lambda_{i[i+1]} = \frac{\rho}{3}$$, for any $$i$$, and $$\lambda_{ij} = 0$$ for all other $$i,j$$.
+3. `Log Diagonal`: $$\lambda_{ij} = 2\lambda_{i[j+1]}$$ and $$\sum_{i}\lambda_{ij} = \rho$$
 
-Examples: $$\pho = 1$$, $$N = 8$$.
+Examples: $$\rho = 1$$, $$N = 8$$.
 
 Uniform:
 
