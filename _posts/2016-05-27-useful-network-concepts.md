@@ -14,10 +14,10 @@ image:
 [Clock skew](https://en.wikipedia.org/wiki/Clock_skew)
 : Given two sequentially-connected registers $$R_i$$ and $$R_j$$ with clock arrival times at destination and source register clock pins equal o $$T_{C_i}$$ and $$T_{C_j}$$ respectively, **clock skew** (sometimes called as **timing skew**, which is a phenomenon in synchronous circuits) is defined as $$T_{skew i,j} = T_{C_i} - T_{C_j}$$.
 
-[XPath](http://www.w3schools.com/xsl/xpath_intro.asp)
-* a syntax of defining parts of an XML document
-* uses path expressions to navigate in XML documents 
-* contains a library of standard functions
+[XPath](http://www.w3schools.com/xsl/xpath_intro.asp)  
++ a syntax of defining parts of an XML document
++ uses path expressions to navigate in XML documents 
++ contains a library of standard functions
 
 [Port mirroring](https://en.wikipedia.org/wiki/Port_mirroring)
 : It is use on a network switch to send a copy of network packets seen on one switch port (or an entire VLAN) to a network monitoring connection to another switch port.
