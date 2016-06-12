@@ -29,7 +29,7 @@ First of all, we will make the following assumptions. The sample size in your si
 By looking up the [Z-table](http://www.stat.ufl.edu/~athienit/Tables/Ztable.pdf), we can find that the $$z$$ value corresponding to the $$95\%$$ confidence interval is $$1.96$$, so the interval is
 
 $$
-\bar{X} \plusminus 1.96 \frac{\sigma}{\sqrt{n}}.
+\bar{X} \pm 1.96 \frac{\sigma}{\sqrt{n}}.
 $$
 
 ## Confidence Interval ($$\sigma$$ Unknown)
@@ -37,7 +37,7 @@ $$
 By looking up the [T-table](https://en.wikipedia.org/wiki/Student%27s_t-distribution), you will find the $$t$$ value for the $$95\%$$ confidence interval with different sample sizes is in the $$7^{th}$$ column (note that, unlike Z distribution, there are different T distributions for different sample sizes.). The interval con be computed as,
 
 $$
-\bar{X} \plusminus t^{95\%}_{n-1} \frac{s}{\sqrt{n}}.
+\bar{X} \pm t^{95\%}_{n-1} \frac{s}{\sqrt{n}}.
 $$ 
 
 
