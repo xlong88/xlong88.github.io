@@ -38,8 +38,8 @@ In this post, we will describe you an easy method to help you do the cross-file 
     "builder_settings": {
         "program": "latex",
         "options": "--shell-escape"
-    }
-}
+                        }
+             }
 ~~~
 
 The above configuration assumes, the root latex file of your project is `main.tex` (if your project use another tex file, please change it correspondingly.). If you really want to make a full understanding of the above configurations, please refer to [Project-Specific Settings](https://github.com/SublimeText/LaTeXTools#settings) of the Latex Tools.
@@ -82,4 +82,4 @@ After you add the configurations, your setting file would look as follows:
 
 ## Notice
 
-If you have any suggestions or questions on this post, please lease your message in the comment session or send e-mail to <mailto:mr.gonglong@outlook.com> directly.
+If you have any suggestions or questions regarding this post, please lease your message in the comment session or send e-mail to <mailto:mr.gonglong@outlook.com> directly.
