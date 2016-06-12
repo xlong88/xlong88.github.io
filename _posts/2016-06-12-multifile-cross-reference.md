@@ -58,7 +58,7 @@ The following is for those who are not so familiar with **JSON**, _i.e._, the fo
 ~~~
 
 
-After you add the configurations, your setting file would look as follows:
+After you add the configurations, your setting file would look as follows (please pay attention to the comma after the `]`, it cannot be omitted):
 
 ~~~json
 {
