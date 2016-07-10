@@ -81,4 +81,11 @@ git push <branch_name> master
 ~~~
     
 
+## Resolve Large File Failure Problem
+
+Suppose you git push your local repository to Github, however it failed because of some large-size files. And you might continue to experience git push failure, even if you have removed or ignore such large files. You can use the following commands to resolve such a problem by deleting those files in your history.
+
+~~~shell
+git filter-branch --index-filter 'git rm -r --cached --ignore-unmatch <file/dir>' HEAD
+~~~
 
