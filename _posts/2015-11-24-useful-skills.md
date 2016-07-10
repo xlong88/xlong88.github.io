@@ -89,3 +89,8 @@ Suppose you git push your local repository to Github, however it failed because 
 git filter-branch --index-filter 'git rm -r --cached --ignore-unmatch <file/dir>' HEAD
 ~~~
 
+Of course, by using the above solution, you cannot upload your large file to Github. Recently, Github had released a tool to help you handle with large file. More details, you can refer to [An open source Git extension for versioning large files](https://git-lfs.github.com/)
+
+
+
+
