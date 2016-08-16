@@ -14,9 +14,15 @@ _proof_: [General idea: $$A = B \Leftrightarrow A \leq B \& A \geq B$$]
 + $$f^\prime(t) \geq f_{\pi \in \Pi}^\prime(t)$$: 
 
 $$\begin{aligned}
-f^\prime(t)  &= 
-f^\prime(t+) &= \lim_{x \rightarrow t+}\frac{f(x) - f(t)}{x - t}\\
-             &\geq \lim_{x \rightarrow t+}\frac{f_{\pi}(x) - f_{\pi}(t)}{x - t}\\
+f^\prime(t)  &= f^\prime(t+) \\
+             &= \lim_{x \rightarrow t+}\frac{f(x) - f(t)}{x - t}\\
+\end{aligned}
+$$
+
+Since $$f(x) \geq f_{\pi}(x)$$, $$f(t) = f_{\pi}(t)$$ for any $$\pi \in \Pi$$, and $$x > t$$,  
+
+$$\begin{aligned}
+f^\prime(t)  &\geq \lim_{x \rightarrow t+}\frac{f_{\pi}(x) - f_{\pi}(t)}{x - t}\\
              &= f_{\pi}^\prime(t+)\\
              &= f_{\pi}^\prime(t)
 \end{aligned}
@@ -25,8 +31,8 @@ $$
 + $$f^\prime(t) \leq f_{\pi \in \Pi}^\prime(t)$$: 
 
 $$\begin{aligned}
-f^\prime(t)  &= 
-f^\prime(t-) &= \lim_{x \rightarrow t-}\frac{f(x) - f(t)}{x - t}\\
+f^\prime(t)  &= f^\prime(t-) \\
+             &= \lim_{x \rightarrow t-}\frac{f(x) - f(t)}{x - t}\\
              &\leq \lim_{x \rightarrow t-}\frac{f_{\pi}(x) - f_{\pi}(t)}{x - t}\\
              &= f_{\pi}^\prime(t-)\\
              &= f_{\pi}^\prime(t)
