@@ -20,6 +20,7 @@ converges to $$\mu$$ **in probability**, _i.e._,
 $$
 \lim\limits_{n \rightarrow \infty}\mathbb{P}\big{[}|\bar{X}_n - \mu| < \epsilon \big{]} = 1
 $$
+
 for any $$\epsilon > 0$$.
 
 
