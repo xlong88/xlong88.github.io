@@ -15,7 +15,11 @@ If you are using old version Mac OS (e.g., Mac OS 10.7), please refer to [this t
 
 If you are using OS X EI Capitan or even newer, the following tutorial might be helpful. 
 
-First, Copy you "sty" file to `/usr/local/texlive/2015basic/texmf-dist/tex/latex/base`.
+First, Copy you "sty" file to the following directory: 
+
+    /usr/local/texlive/2015basic/texmf-dist/tex/latex/base
+
+
 
 ~~~shell
 sudo cp fullpage.sty /usr/local/texlive/2015basic/texmf-dist/tex/latex/base/
