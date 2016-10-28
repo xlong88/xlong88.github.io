@@ -15,13 +15,15 @@ If you are using old version Mac Os (e.g., Mac Os 10.7), please refer to [this t
 
 If you are using OS X EI Capitan or even newer, the following tutorial might be helpful. 
 
-First of all, Copy (or Move) you "sty" file to /usr/local/texlive/2015basic/texmf-dist/tex/latex/base.
+First of all, Copy (or Move) you "sty" file to 
+
+`/usr/local/texlive/2015basic/texmf-dist/tex/latex/base`.
 
 ~~~shell
 sudo cp fullpage.sty /usr/local/texlive/2015basic/texmf-dist/tex/latex/base/
 ~~~
 
-Then, run "texhash" to help latex to index the newly added "sty" file.
+Then, run `texhash` to help latex to index the newly added "sty" file.
 
 ~~~shell
 sudo texhash
