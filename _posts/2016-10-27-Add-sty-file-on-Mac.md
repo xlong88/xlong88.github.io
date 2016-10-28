@@ -11,12 +11,11 @@ For some Mac Air users, you might choose to use BasicTex instead of full-blown M
 
 Throughout the following of the post, we assume that you have already got the "sty" file.
 
-If you are using old version Mac Os (e.g., Mac Os 10.7), please refer to [this tutorial](http://tex.stackexchange.com/questions/10252/how-do-i-add-a-sty-file-to-my-mactex-texshop-installation).
+If you are using old version Mac OS (e.g., Mac OS 10.7), please refer to [this tutorial](http://tex.stackexchange.com/questions/10252/how-do-i-add-a-sty-file-to-my-mactex-texshop-installation).
 
 If you are using OS X EI Capitan or even newer, the following tutorial might be helpful. 
 
-First of all, Copy (or Move) you "sty" file to 
-`/usr/local/texlive/2015basic/texmf-dist/tex/latex/base`.
+First, Copy you "sty" file to `/usr/local/texlive/2015basic/texmf-dist/tex/latex/base`.
 
 ~~~shell
 sudo cp fullpage.sty /usr/local/texlive/2015basic/texmf-dist/tex/latex/base/
