@@ -21,6 +21,7 @@ First, Copy the "sty" file to the following directory:
 
 
 For example,
+
 ~~~shell
 sudo cp fullpage.sty /usr/local/texlive/2015basic/texmf-dist/tex/latex/base/
 ~~~
@@ -28,6 +29,7 @@ sudo cp fullpage.sty /usr/local/texlive/2015basic/texmf-dist/tex/latex/base/
 Then, run `texhash` to help latex to index the newly added "sty" file.
 
 For example,
+
 ~~~shell
 sudo texhash
 ~~~
