@@ -1,9 +1,22 @@
 ---
 layout: post
-title: How to add .sty file manually on Mac 
-description: "add sty file on Mac"
-tags: [tools, latex]
+title: Different Types of Stabilities for Queueing Systems
+description: "Memo for queueing"
+tags: [math]
 image:
   background: triangular.png
 ---
+
+## Notations ##
+
+## Rate Stable ##
+
+
+## Weakly Stable ##
+
+
+## Strongly Stable ##
+
+
+
 
