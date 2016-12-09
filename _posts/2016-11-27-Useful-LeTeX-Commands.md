@@ -19,10 +19,10 @@ This post collects certain useful LeTeX commands, mainly focusing on user-define
 \usepackage{etoolbox}
 \ifx\walk\undefined 
 \makeatletter
-\newcommand{\walk}[1]{%
+\newcommand{\walk}[1]{
   \@tempswafalse
   \@for\next:=#1\do
-    {\if@tempswa\!\!\rightarrow\!\!\else\@tempswatrue\fi\next}%
+    {\if@tempswa\!\!\rightarrow\!\!\else\@tempswatrue\fi\next}
 }
 \makeatother
 \fi
